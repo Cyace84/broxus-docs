@@ -1,0 +1,25 @@
+{
+  "name": "broxus-docs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "docs:clean": "rm -rf ./docs/build",
+    "docs:build": "npm run docs:clean && npx vitepress build",
+    "dev": "npx vitepress dev"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.0",
+    "dotenv": "^16.0.3",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "vitepress": "1.0.0-beta.3",
+    "sass": "^1.63.6"
+  }
+}
